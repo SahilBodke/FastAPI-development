@@ -37,7 +37,7 @@ app.include_router(vote.router)
 # http url routes' order matters if url endpoint is same
 @app.get("/")
 def root():
-    return {"message": "Welcome to Python API!!!"} 
+    return {"message": "Bind mount works! Great"} 
 
 
 
